@@ -1,0 +1,64 @@
+body{
+	background-color: black;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+  max-height: 1000px;
+
+
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+.logo{
+  width: 80px;
+  height: 70px;
+  margin-left: 10px;
+   position: fixed;
+   margin-top: -70px;
+}
+
+.ilogo{
+  width: 65px;
+  height: 65px;
+}
+
+
+.authors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.author {
+  margin: 20px;
+  text-align: center;
+  flex: 1 1 150px; /* Добавлено */
+}
+
+.author img {
+  width: 201px; /* Подставьте нужный размер */
+  height: auto;
+}
+
+.author a {
+  text-decoration: none;
+  display: block;
+  color:white;
+  font-family: Dela Gothic One;
+  font-size: 18px;
+}
+
+.author span {
+  display: block;
+}
+
+.author a:hover{
+	color: #6B4925;
+}
