@@ -1,0 +1,101 @@
+body{
+	background-color: black;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+#rectangle{
+	background: white;
+	border-radius: 52px;
+	width: 1100px;
+	height: 700px;
+	margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+}
+
+.dos{
+	width: 378px;
+	height: 463px;
+	float: left;
+}
+
+h1{
+	float: right;
+	margin-right: 300px;
+	font-family: Yeseva One;
+	font-size: 32px;
+
+}
+
+.bio{
+text-align: left;
+margin-top:150px;
+position: absolute;
+width: 500px;
+margin-left: 500px;
+font-family: Josefin sans;
+
+}
+
+p1{
+	color: #2B3D49;
+}
+
+h2{
+	margin-top: 60px;
+	font-family: Yeseva One;
+	color: #2B3D49;
+	font-size: 22px;
+	user-select: none;
+}
+
+.dat{
+	width: 350px;
+	float: left;
+	margin-top: 550px;
+	height: auto;
+	margin-left: -340px;
+
+
+}
+
+.logo{
+  width: 80px;
+  height: 100px;
+  margin-left: 10px;
+  position: fixed;
+}
+
+.ilogo{
+  width: 65px;
+  height: 65px;
+}
+
+.книги{
+	display: inline-block;
+	margin:-10px 30px;
+
+}
+
+.преступ{
+	width: 128px;
+	height: 201px;
+
+}
+
+.идиот{
+	width: 128px;
+	height: 201px;
+	margin-left: 60px;
+
+}
